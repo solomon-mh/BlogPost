@@ -19,7 +19,6 @@ function App() {
           <Route path='post/:id/edit' element={<EditPost posts={posts} />} />
         </Route>
       </Routes>
-      {/* <Home /> */}
     </div>
   );
 }
